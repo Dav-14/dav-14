@@ -28,13 +28,6 @@
 ![PlatformIO](https://img.shields.io/badge/PlatformIO-FF6600?style=flat-square&logo=platformio&logoColor=white)
 ![Arduino](https://img.shields.io/badge/Arduino-00979D?style=flat-square&logo=arduino&logoColor=white)
 
-# 👋 About Me
-
-- 🔧 I work mostly on embedded systems using C++ and Go
-- 🛠️ Daily driver: VSCode, PlatformIO, and Linux
-- 📡 Currently building ESP32-based projects for IoT
-- 💻 Strong background in systems-level work, scripting, and automation
-- 🧠 Passionate about open source, optimization, and clean architecture
 
 # 🙌 Let's Connect
 
