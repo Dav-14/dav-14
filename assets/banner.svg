@@ -1,29 +1,53 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="title desc">
-  <title id="title">David Ragot — Backend, Platform, Observability</title>
-  <desc id="desc">A dark navy banner with cyan and violet connected nodes.</desc>
-  <defs>
-    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0b1220"/><stop offset="1" stop-color="#172039"/></linearGradient>
-    <linearGradient id="accent"><stop stop-color="#22d3ee"/><stop offset="1" stop-color="#a78bfa"/></linearGradient>
-    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#94a3b8" stroke-opacity=".07"/></pattern>
-  </defs>
-  <rect width="1200" height="340" rx="20" fill="url(#bg)"/>
-  <rect width="1200" height="340" rx="20" fill="url(#grid)"/>
-  <path d="M830 95H950L1040 170H1140M830 245H950L1040 170M950 95V245" fill="none" stroke="url(#accent)" stroke-width="2" opacity=".5"/>
-  <g fill="#101a2d" stroke="#22d3ee" stroke-width="2">
-    <rect x="808" y="73" width="44" height="44" rx="12"/>
-    <rect x="928" y="73" width="44" height="44" rx="12"/>
-    <rect x="808" y="223" width="44" height="44" rx="12"/>
-    <rect x="928" y="223" width="44" height="44" rx="12"/>
-    <circle cx="1040" cy="170" r="29" stroke="#a78bfa"/>
-    <circle cx="1140" cy="170" r="9" fill="#a78bfa" stroke="#a78bfa"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="440" viewBox="0 0 1280 440" role="img" aria-labelledby="title desc">
+<title id="title">David Ragot — Backend · Platform · Observability</title>
+<desc id="desc">A midnight blue canvas with large typography and a luminous system diagram connecting an API, Go services, infrastructure, and telemetry.</desc>
+<defs>
+  <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#090e1b"/><stop offset="1" stop-color="#121b32"/></linearGradient>
+  <linearGradient id="edge"><stop stop-color="#22d3ee"/><stop offset=".55" stop-color="#818cf8"/><stop offset="1" stop-color="#c084fc"/></linearGradient>
+  <radialGradient id="halo"><stop stop-color="#635bdf" stop-opacity=".27"/><stop offset="1" stop-color="#635bdf" stop-opacity="0"/></radialGradient>
+  <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#8aa1cd" opacity=".12"/></pattern>
+  <filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="4"/></filter>
+</defs>
+<rect width="1280" height="440" rx="24" fill="url(#bg)"/>
+<rect width="1280" height="440" rx="24" fill="url(#dots)"/>
+<ellipse cx="1010" cy="210" rx="350" ry="280" fill="url(#halo)"/>
+<path d="M24 1H1256" stroke="url(#edge)" stroke-opacity=".75"/>
+<g font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <rect x="56" y="48" width="148" height="30" rx="15" fill="#142538" stroke="#224157"/>
+  <text x="76" y="68" font-size="12" letter-spacing="2" fill="#67e8f9" font-weight="600">DAV-14 / GITHUB</text>
+  <text x="54" y="171" font-size="84" font-weight="750" letter-spacing="-4" fill="#f1f5f9">David Ragot<tspan fill="#67e8f9">.</tspan></text>
+  <text x="59" y="220" font-size="23" fill="#d1d9ec">Backend · Platform · Observability</text>
+  <text x="59" y="272" font-size="17" fill="#94a3bf">Building services. Connecting systems.</text>
+  <text x="59" y="298" font-size="17" fill="#94a3bf">Making their behavior visible.</text>
+  <path d="M59 337H628" stroke="#28344c"/>
+  <g font-family="SFMono-Regular, Consolas, monospace" font-size="13">
+    <text x="59" y="370" fill="#67e8f9">01 <tspan fill="#cbd5e1">CODE</tspan></text>
+    <text x="246" y="370" fill="#a5b4fc">02 <tspan fill="#cbd5e1">OPERATE</tspan></text>
+    <text x="465" y="370" fill="#d8b4fe">03 <tspan fill="#cbd5e1">OBSERVE</tspan></text>
   </g>
-  <g fill="#22d3ee"><circle cx="830" cy="95" r="5"/><circle cx="950" cy="95" r="5"/><circle cx="830" cy="245" r="5"/><circle cx="950" cy="245" r="5"/></g>
-  <path d="m1032 160-10 10 10 10m16-20 10 10-10 10" fill="none" stroke="#c4b5fd" stroke-width="2" stroke-linecap="round"/>
-  <g font-family="Segoe UI, Helvetica, Arial, sans-serif">
-    <text x="64" y="87" fill="#67e8f9" font-size="15" font-weight="600" letter-spacing="4">HELLO, I'M</text>
-    <text x="60" y="165" fill="#f8fafc" font-size="66" font-weight="700" letter-spacing="-2">David Ragot<tspan fill="#22d3ee">.</tspan></text>
-    <text x="64" y="212" fill="#cbd5e1" font-size="22">Backend · Platform · Observability</text>
-    <rect x="64" y="253" width="180" height="3" rx="1.5" fill="url(#accent)"/>
-    <text x="64" y="292" fill="#94a3b8" font-size="16">From services to the systems that run them.</text>
+</g>
+<g fill="none" stroke="#6673aa" stroke-opacity=".17">
+  <circle cx="1006" cy="220" r="158"/>
+  <circle cx="1006" cy="220" r="190" stroke-dasharray="3 9"/>
+</g>
+<g fill="none" stroke="url(#edge)" stroke-width="2">
+  <path d="M824 132H945Q961 132 961 148V186M1038 186V132H1162M824 307H945Q961 307 961 291V254M1038 254V307H1162" opacity=".2" stroke-width="10" filter="url(#glow)"/>
+  <path d="M824 132H945Q961 132 961 148V186M1038 186V132H1162M824 307H945Q961 307 961 291V254M1038 254V307H1162" opacity=".85"/>
+</g>
+<g font-family="SFMono-Regular, Consolas, monospace" text-anchor="middle">
+  <g fill="#111d31" stroke="#304561">
+    <rect x="748" y="106" width="116" height="52" rx="12"/>
+    <rect x="1102" y="106" width="116" height="52" rx="12"/>
+    <rect x="748" y="281" width="116" height="52" rx="12"/>
+    <rect x="1102" y="281" width="116" height="52" rx="12"/>
   </g>
+  <g font-size="13" fill="#c6d5ed"><text x="806" y="137">API</text><text x="1160" y="137">TRACES</text><text x="806" y="312">PLATFORM</text><text x="1160" y="312">METRICS</text></g>
+  <rect x="922" y="178" width="157" height="84" rx="18" fill="#142239" stroke="url(#edge)" stroke-width="1.5"/>
+  <text x="1000" y="213" font-size="23" font-weight="700" fill="#67e8f9">{ Go }</text>
+  <text x="1000" y="240" font-size="11" letter-spacing="2" fill="#a5b4cf">SERVICES</text>
+</g>
+<g fill="#67e8f9"><circle cx="905" cy="132" r="3"/><circle cx="961" cy="171" r="3"/></g>
+<g fill="#c4b5fd"><circle cx="1090" cy="307" r="3"/><circle cx="1038" cy="270" r="3"/></g>
+<path d="M740 376H1218" stroke="#28344c"/>
+<text x="980" y="400" text-anchor="middle" font-family="SFMono-Regular, Consolas, monospace" font-size="11" letter-spacing="2" fill="#8394b3">FROM CODE TO PRODUCTION</text>
 </svg>
