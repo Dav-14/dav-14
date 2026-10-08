@@ -1,36 +1,30 @@
+# Hi, I'm David Ragot
 
-# 🧰 Tech Toolbox
+I build backend services and the infrastructure that keeps them running.
+My work spans Go, distributed systems, Kubernetes, and observability.
 
-## Core Technologies
+[GitHub contributions](https://github.com/Dav-14?tab=overview) · [LinkedIn](https://www.linkedin.com/in/david-r-ba2a33163) · [Email](mailto:david.ragot14@gmail.com)
 
-![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![JS](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=white)
-![Typescript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+## What I work on
 
-## Observability Stack
+- **Backend engineering** — services, APIs, and integrations in Go.
+- **Platform & reliability** — container orchestration, delivery pipelines, and operational tooling.
+- **Observability** — metrics, traces, and dashboards that help explain how a system behaves.
 
-![Prometheus](https://img.shields.io/badge/Prometheus-EB5D00?style=flat-square&logo=prometheus&logoColor=white)
-![Grafana](https://img.shields.io/badge/Grafana-1F77B4?style=flat-square&logo=grafana&logoColor=white)
-![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-6B9AB5?style=flat-square&logo=opentelemetry&logoColor=white)
-![Thanos](https://img.shields.io/badge/Thanos-4E7E8C?style=flat-square&logo=thanos&logoColor=white)
-![Istio](https://img.shields.io/badge/Istio-4479A1?style=flat-square&logo=istio&logoColor=white)
+## Toolbox
 
-## Platform
+| Area | Technologies |
+| --- | --- |
+| Languages | Go · Python · TypeScript · JavaScript |
+| Platform | Kubernetes · Docker · Podman · Istio |
+| Observability | OpenTelemetry · Prometheus · Grafana · Thanos |
+| Embedded & IoT | ESP32 · PlatformIO · Arduino |
 
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Podman](https://img.shields.io/badge/Podman-8C5E2F?style=flat-square&logo=podman&logoColor=white)
+## Beyond the backend
 
-## IOT & Embedded
+I also explore embedded systems and IoT with ESP32 and Arduino.
 
-![ESP32](https://img.shields.io/badge/ESP32-000000?style=flat-square&logo=espressif&logoColor=white)
-![PlatformIO](https://img.shields.io/badge/PlatformIO-FF6600?style=flat-square&logo=platformio&logoColor=white)
-![Arduino](https://img.shields.io/badge/Arduino-00979D?style=flat-square&logo=arduino&logoColor=white)
+## Get in touch
 
-
-# 🙌 Let's Connect
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin&style=for-the-badge "LinkedIn Profile")](https://www.linkedin.com/in/david-r-ba2a33163)
-[![Email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white&style=for-the-badge "Email")](mailto:david.ragot14@gmail.com)
-
+Find me on [LinkedIn](https://www.linkedin.com/in/david-r-ba2a33163)
+or reach out by [email](mailto:david.ragot14@gmail.com).
